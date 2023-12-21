@@ -1,0 +1,12 @@
+C:\Users\saeed\source\repos\SerialGenerator\bin\Debug\SerialGenerator.exe.config
+C:\Users\saeed\source\repos\SerialGenerator\bin\Debug\SerialGenerator.exe
+C:\Users\saeed\source\repos\SerialGenerator\bin\Debug\SerialGenerator.pdb
+C:\Users\saeed\source\repos\SerialGenerator\obj\Debug\SerialGenerator.csproj.AssemblyReference.cache
+C:\Users\saeed\source\repos\SerialGenerator\obj\Debug\SerialGenerator.csproj.SuggestedBindingRedirects.cache
+C:\Users\saeed\source\repos\SerialGenerator\obj\Debug\SerialGenerator.Form1.resources
+C:\Users\saeed\source\repos\SerialGenerator\obj\Debug\SerialGenerator.Properties.Resources.resources
+C:\Users\saeed\source\repos\SerialGenerator\obj\Debug\SerialGenerator.csproj.GenerateResource.cache
+C:\Users\saeed\source\repos\SerialGenerator\obj\Debug\SerialGenerator.csproj.CoreCompileInputs.cache
+C:\Users\saeed\source\repos\SerialGenerator\obj\Debug\SerialGenerator.exe
+C:\Users\saeed\source\repos\SerialGenerator\obj\Debug\SerialGenerator.pdb
+C:\Users\saeed\source\repos\SerialGenerator\obj\Debug\SerialGenerator.Form2.resources
