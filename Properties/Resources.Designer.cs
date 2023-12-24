@@ -93,6 +93,16 @@ namespace SerialGenerator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Keychain_128x128 {
+            get {
+                object obj = ResourceManager.GetObject("Keychain_128x128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Linkedin {
             get {
                 object obj = ResourceManager.GetObject("Linkedin", resourceCulture);

@@ -36,6 +36,7 @@ namespace SerialGenerator
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //this.Icon  @"\Resources\Key_64x64.ico";
             rand = new Random();
             saveFileDialog1 = new SaveFileDialog();
 

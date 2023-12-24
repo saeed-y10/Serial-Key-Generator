@@ -48,6 +48,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnInfo = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
@@ -58,6 +59,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numPartLength)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numTotalParts)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numTotalKeys)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblHeader
@@ -65,9 +67,10 @@
             this.lblHeader.Font = new System.Drawing.Font("Russo One", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeader.Location = new System.Drawing.Point(12, 12);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(455, 72);
+            this.lblHeader.Size = new System.Drawing.Size(403, 72);
             this.lblHeader.TabIndex = 0;
             this.lblHeader.Text = "Serial Key Generator";
+            this.lblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txbKeys
             // 
@@ -300,6 +303,16 @@
             // 
             this.toolTip1.AutomaticDelay = 1000;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SerialGenerator.Properties.Resources.Keychain_128x128;
+            this.pictureBox1.Location = new System.Drawing.Point(414, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 72);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
             // btnInfo
             // 
             this.btnInfo.BackColor = System.Drawing.Color.Transparent;
@@ -395,6 +408,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(761, 522);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnInfo);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClear);
@@ -410,6 +424,7 @@
             this.Controls.Add(this.gbKeyType);
             this.Controls.Add(this.txbKeys);
             this.Controls.Add(this.lblHeader);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Serial Key Generator";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -420,6 +435,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numPartLength)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numTotalParts)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numTotalKeys)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -450,6 +466,7 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Button btnInfo;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
