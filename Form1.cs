@@ -45,6 +45,7 @@ namespace SerialGenerator
             saveFileDialog1.DefaultExt = "txt";
             saveFileDialog1.Filter = "txt files (*.txt) | *.txt";
 
+            btnGenerate.Focus();
 
             rbLetters.Checked = true;
             rbCapital.Checked = true;
@@ -82,17 +83,16 @@ namespace SerialGenerator
 
         public char GetRandomCharacter(enKeyType KeyType, enLetterType LetterType)
         {
-            switch (KeyType)
-            {
-                case enKeyType.Numbers:
-                    return GetRandomNumber();
+            if (KeyType == enKeyType.Random)
+                KeyType = GetRandomKeyType();
 
-                case enKeyType.Letters:
-                    return GetRandomLetter(LetterType);
+            if (KeyType == enKeyType.Numbers)
+                return GetRandomNumber();
 
-                default:
-                    return GetRandomCharacter(GetRandomKeyType(), LetterType);
-            }
+            if (LetterType == enLetterType.Random)
+                LetterType = GetRnadomLetterType();
+            
+            return GetRandomLetter(LetterType);
         }
 
         public string GenerateKeyPart(byte Length, enKeyType KeyType, enLetterType LetterType)
@@ -125,7 +125,7 @@ namespace SerialGenerator
 
             for (byte i = 0; i < NumberOfKeys; i++)
             {
-                Keys += GenerateKey(KeyLength, PartLength, KeyType, LetterType, Seperator) + Environment.NewLine;
+                Keys += GenerateKey(KeyLength, PartLength, KeyType, LetterType, Seperator) + "\n";
             }
 
             return Keys;
@@ -208,16 +208,15 @@ namespace SerialGenerator
 
             if (!File.CanWrite)
             {
-                MessageBox.Show("You Don't Have Access Permission To This Folder !", "Access Problem");
+                MessageBox.Show("You Don't Have Access Permission !", "Access Problem");
                 return;
             }
 
             byte[] data = Encoding.UTF8.GetBytes(Keys);
 
             File.Write(data, 0, data.Length);
-            File.Close();
-
             
+            File.Close();
         }
 
         private void numTotalKeys_ValueChanged(object sender, EventArgs e)
@@ -229,11 +228,6 @@ namespace SerialGenerator
         {
             if (txbKeys.Text != "")
             Clipboard.SetText(txbKeys.Text);
-        }
-
-        private void GetNmae()
-        {
-
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -264,7 +258,6 @@ namespace SerialGenerator
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            //saveFileDialog1.ShowDialog();
             
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -273,7 +266,6 @@ namespace SerialGenerator
                 SaveToFile(Keys, Path);
             }
 
-            //SaveToFile(Keys, Path);
         }
 
         private void btnInfo_Click(object sender, EventArgs e)
