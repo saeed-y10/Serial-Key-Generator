@@ -1,0 +1,8 @@
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorLibrary\bin\Debug\KeyGeneratorLibrary.dll
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorLibrary\bin\Debug\KeyGeneratorLibrary.pdb
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorLibrary\obj\Debug\KeyGeneratorLibrary.csproj.AssemblyReference.cache
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorLibrary\obj\Debug\KeyGeneratorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorLibrary\obj\Debug\KeyGeneratorLibrary.dll
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorLibrary\obj\Debug\KeyGeneratorLibrary.pdb
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorLibrary\obj\Debug\KeyGeneratorLibrary.Properties.Resources.resources
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorLibrary\obj\Debug\KeyGeneratorLibrary.csproj.GenerateResource.cache

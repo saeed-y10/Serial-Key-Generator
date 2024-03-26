@@ -1,0 +1,15 @@
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\bin\Debug\KeyGeneratorGUI.exe.config
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\bin\Debug\KeyGeneratorGUI.exe
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\bin\Debug\KeyGeneratorGUI.pdb
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\obj\Debug\KeyGeneratorGUI.csproj.AssemblyReference.cache
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\obj\Debug\KeyGeneratorGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\obj\Debug\KeyGeneratorGUI.Properties.Resources.resources
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\obj\Debug\KeyGeneratorGUI.csproj.GenerateResource.cache
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\obj\Debug\KeyGeneratorGUI.csproj.CoreCompileInputs.cache
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\obj\Debug\KeyGeneratorGUI.exe
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\obj\Debug\KeyGeneratorGUI.pdb
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\obj\Debug\KeyGeneratorGUI.Form1.resources
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\bin\Debug\KeyGeneratorLibrary.dll
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\bin\Debug\KeyGeneratorLibrary.pdb
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\obj\Debug\KeyGeneratorGUI.csproj.CopyComplete
+C:\Users\saeed\source\repos\SerialKeyGenerator\KeyGeneratorGUI\obj\Debug\KeyGeneratorGUI.Form2.resources
